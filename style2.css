@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:hover{
+    cursor: pointer;
+}
+
+body{
+    background-color: rgb(119, 117, 117) ;
+}
+
+nav{
+    display: flex;
+   justify-content:center;
+    align-items: center;
+    padding: 20px 20px;
+    background-color: rgb(51, 75, 65);       
+
+}
+
+li{
+    display: inline-block;
+    margin-right: 40px;
+   
+}
+
+a{
+ text-decoration: none;
+ color: aliceblue;
+ font-size: 18px;
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ margin: 30px;
+
+
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+   padding: 10px;
+   margin-top: 10px;
+}
+.galeria-Imgs{
+    
+    display: flex;
+    align-items: center;
+    justify-self: center;
+   
+    
+}
+.img{
+    width: 300px;
+    height: 250px;    
+    padding:10px;
+    box-shadow: 2px 2px 5px 2px rgba(55, 114, 85, 0.5);
+    border-radius: 5%;   
+   
+   
+}
+
+figure {
+   
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+    margin-left: 40px;
+    
+       
+  }
+
+  p {
+  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    text-align: center; 
+       
+  }
+
+  footer {
+    background-color: rgb(51, 75, 65); 
+    color: antiquewhite;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.icones img{
+    height: 30px;
+}
